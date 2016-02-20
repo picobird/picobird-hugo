@@ -1,0 +1,11 @@
+baseurl = "http://picobird.github.com/"
+languageCode = "zh-cn"
+title = "picobird's blog"
+paginate = 8
+
+# theme
+theme = "crisp"
+
+[permalinks]
+	post = "/:year/:title/"
+	addendum = "/addendum/:year/:title"
