@@ -2,6 +2,7 @@ baseurl = "http://picobird.github.com/"
 languageCode = "zh-cn"
 title = "picobird's blog"
 paginate = 8
+ga = "UA-123-45"
 
 # theme
 theme = "crisp"
