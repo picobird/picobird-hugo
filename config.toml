@@ -1,4 +1,4 @@
-baseurl = "http://picobird.github.com/"
+baseurl = "https://synclue.com/"
 languageCode = "zh-cn"
 title = "picobird's blog"
 paginate = 8
