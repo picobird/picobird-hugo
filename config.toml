@@ -7,6 +7,7 @@ ga = "UA-123-45"
 # theme
 theme = "mini"
 
+
 [permalinks]
 	post = "/:year/:title/"
 	addendum = "/addendum/:year/:title"
