@@ -5,7 +5,7 @@ paginate = 8
 ga = "UA-123-45"
 
 # theme
-theme = "mini"
+theme = "crisp"
 
 
 [permalinks]
