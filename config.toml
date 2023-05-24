@@ -8,6 +8,7 @@ disqusShortname = 'synclue'
 # theme
 theme = "crisp"
 
+
 [permalinks]
 	post = "/:year/:title/"
 	addendum = "/addendum/:year/:title"
