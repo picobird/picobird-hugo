@@ -6,7 +6,7 @@ ga = "UA-123-45"
 disqusShortname = 'synclue'
 
 # theme
-theme = "coder"
+theme = "crisp"
 
 
 [permalinks]
