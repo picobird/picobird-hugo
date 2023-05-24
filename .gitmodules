@@ -3,4 +3,4 @@
 	url = https://github.com/picobird/picobird.github.io.git
 [submodule "themes/crisp"]
 	path = themes/crisp
-	url = https://github.com/picobird/crisp
+	url = https://github.com/picobird/crisp.git
