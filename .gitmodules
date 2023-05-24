@@ -1,15 +1,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/picobird/picobird.github.io.git
-[submodule "themes/mini"]
-	path = themes/mini
-	url = https://github.com/nodejh/hugo-theme-mini.git
 [submodule "themes/crisp"]
 	path = themes/crisp
 	url = https://github.com/picobird/crisp
-[submodule "themes/loveit"]
-	path = themes/loveit
-	url = https://github.com/dillonzq/LoveIt
-[submodule "themes/coder"]
-	path = themes/coder
-	url = https://github.com/luizdepra/hugo-coder
