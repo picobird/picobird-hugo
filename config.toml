@@ -1,6 +1,6 @@
 baseurl = ""
 languageCode = "zh-cn"
-title = "picobird's blog"
+title = "picobird"
 paginate = 8
 ga = "UA-123-45"
 disqusShortname = 'synclue'
