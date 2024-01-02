@@ -3,7 +3,7 @@ languageCode = "zh-cn"
 title = "picobird"
 paginate = 8
 ga = "UA-123-45"
-disqusShortname = 'synclue'
+#disqusShortname = 'synclue'
 
 # theme
 theme = "crisp"
