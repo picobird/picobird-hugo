@@ -1,22 +1,17 @@
 +++
-title = "Add Katago Engine to Sabaki"
+title = "Sabaki 安装 katago 引擎"
 date = "2024-02-17T12:16:50+08:00"
 tags = ["go"]
 +++
 
-# Sabaki  安装 katago 引擎
 
-Mac 系统中安装 AI 机器人展开围棋大战
+在 Mac 系统中安装 AI 机器人展开围棋大战
 
 ![SCR-20240207-lnqm](https://cloud.synclue.com/2024/02/17/1708151084.png)
-
-
 
 ### 安装 Sabaki
 
 在 Sabaki [官网](https://sabaki.yichuanshen.de/) 下载最新版本，支持 Windows，Mac，Linux 三个系统
-
-
 
 ### 安装 katago 
 
@@ -36,8 +31,6 @@ Usage: katago SUBCOMMAND
 gtp : Runs GTP engine that can be plugged into any standard Go GUI for play/analysis.
 ```
 
-
-
 ### Sabaki 中添加 katago 引擎
 
 1. 打开 sabaki 首选项（顶部菜单）
@@ -46,13 +39,9 @@ gtp : Runs GTP engine that can be plugged into any standard Go GUI for play/anal
 
 有四项内容待填写：名称，路径，运行参数，启动参数，我们来依次填写
 
-
-
 #### 名称
 
 此处输入引擎名称，建议填写 `Katago` 
-
-
 
 #### 路径
 
@@ -68,8 +57,6 @@ $ which katago
 /opt/homebrew/bin/katago
 ```
 
-
-
 #### 运行参数
 
 要想 katago 正常运行，仅需 gtp 相关的命令即可，需要注意两个变量 A&B
@@ -79,8 +66,6 @@ gtp -config A -model B
 ```
 
 此处采用最简单办法，使用 katago 自带的 A 和 B，来看一下如何获取 A&B 的文件路径
-
-
 
 A 配置文件 `/path/to/gtp_example.cfg` ，直接使用 katago 默认 cfg 配置文件
 
@@ -114,8 +99,6 @@ gtp -config /opt/homebrew/Cellar/katago/1.14.0/share/katago/configs/gtp_example.
 
 当然您也可以自行下载配置文件和模型文件，将相应的文件路径进行替换即可
 
-
-
 #### 启动参数
 
 将如下命令复制粘贴到启动参数字段中
@@ -136,8 +119,6 @@ time_settings 0 5 1
 
 ![SCR-20240207-lnqm](https://cloud.synclue.com/2024/02/17/1708151077.png)
 
-
-
 ### 试玩一局
 
 1. 新对局
@@ -147,15 +128,11 @@ time_settings 0 5 1
 
 想要安装更多引擎，可以参考 sabaki 的 [WIKI 介绍](https://github.com/SabakiHQ/Sabaki/blob/master/docs/guides/engines.md)
 
-
-
 ### 常见问题
 
 1. 未能奏效，主要检查引擎的路径是否在前面或者后面多了空格，把它删掉就可以了
 2. 如果黑棋加载了 katago 引擎，需要在引擎中点击生成一手棋才可让对局进行
 3. 如果对以上的内容完全看不懂，建议直接安装 [KaTrain](http://github.com/sanderland/katrain/releases)
-
-
 
 ### 附录
 
