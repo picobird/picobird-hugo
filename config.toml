@@ -9,6 +9,10 @@ disqusShortname = 'synclue'
 #theme = "crisp"
 theme = 'hugo-paper'
 
+[module]
+  [[module.imports]]
+    path = "github.com/nanxiaobei/hugo-paper"
+
 [permalinks]
 	post = "/:year/:title/"
 	addendum = "/addendum/:year/:title"
