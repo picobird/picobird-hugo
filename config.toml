@@ -7,8 +7,35 @@ disqusShortname = 'synclue'
 
 # theme
 #theme = "crisp"
-theme = 'hugo-paper'
+theme = 'paper'
 
 [permalinks]
 	post = "/:year/:title/"
 	addendum = "/addendum/:year/:title"
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'picobird'               # twitter.com/YOUR_TWITTER_ID
+  github = 'picobird'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'picobird'           # instagram.com/YOUR_INSTAGRAM_ID
+  #linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  #mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
+  #rss = true                                # show rss icon
+
+  # home page profile
+  avatar = 'https://cloud.synclue.com/2024/02/17/1708172499.png'                 # gravatar email or image url
+  name = 'Jason'
+  bio = '半神尐屾'
+
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  #gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  math = true                               # enable KaTeX math typesetting globally
+  #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+
