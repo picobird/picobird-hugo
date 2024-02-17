@@ -1,13 +1,13 @@
-baseurl = ""
+baseurl = "https://synclue.com/"
 languageCode = "zh-cn"
-title = "picobird's blog"
+title = "尐屾"
 paginate = 8
 ga = "UA-123-45"
 disqusShortname = 'synclue'
 
 # theme
-theme = "crisp"
-
+#theme = "crisp"
+theme = 'journal'
 
 [permalinks]
 	post = "/:year/:title/"
