@@ -4,12 +4,3 @@
 [submodule "themes/crisp"]
 	path = themes/crisp
 	url = https://github.com/picobird/crisp.git
-[submodule "themes/journal"]
-	path = themes/journal
-	url = https://github.com/SumiMakito/hexo-theme-Journal.git
-[submodule "themes/diary"]
-	path = themes/diary
-	url = https://github.com/AmazingRise/hugo-theme-diary.git
-[submodule "themes/compost"]
-	path = themes/compost
-	url = https://github.com/canstand/compost.git

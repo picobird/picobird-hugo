@@ -134,7 +134,7 @@ time_settings 0 5 1
 
 最终配置完成后，看且来就像下图所示
 
-<img src="https://cloud.synclue.com/2024/02/17/1708151077.png" alt="SCR-20240217-jvvh" style="zoom:50%;" />
+![SCR-20240207-lnqm](https://cloud.synclue.com/2024/02/17/1708151077.png)
 
 
 
