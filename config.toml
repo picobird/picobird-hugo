@@ -2,7 +2,7 @@ baseurl = "https://synclue.com/"
 languageCode = "zh-cn"
 title = "尐屾"
 paginate = 8
-ga = "UA-123-45"
+ga = "G-FNHXLXPWMY"
 disqusShortname = 'synclue'
 
 # theme
